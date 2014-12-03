@@ -1,0 +1,49 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Site.master.cs" Inherits="Site" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Empoyee Management</title>
+    <link href="Css/Site.css" rel="stylesheet" type="text/css" />
+    <link href="Css/GridView.css" rel="stylesheet" type="text/css" />
+    <link href="Css/Control.css" rel="stylesheet" type="text/css" />
+    <link href="Css/calendar.css" rel="stylesheet" type="text/css" />
+    <link href="Css/Tab.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+<div class="page">
+    <form id="form1" runat="server">
+    <asp:ScriptManager ID="ScriptManager1" runat="server">
+    </asp:ScriptManager>
+    <div class="head">
+        <div class="left logo">
+            <a href="#">
+           
+                <img src="<%= ResolveUrl("~/Resource/Images/index.png") %>" alt=""/>
+            </a>
+            <h1>
+                <asp:Label ID="lbAdmin" runat="server" Text=""></asp:Label></h1>
+                <div class="clear"></div>
+        </div><!-- left -->
+        <div class="right login_info">
+            <asp:ContentPlaceHolder id="content_right" runat="server">
+        
+            </asp:ContentPlaceHolder>
+        </div><!-- right -->
+        <div class="clear"></div><!-- clear-->
+    </div><!-- head -->
+    <div class="content"> 
+        <asp:ContentPlaceHolder id="content_main" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div><!-- content -->
+    <div class="footer">
+        mint-corp.com - copyright @copy 2014
+    </div><!-- footer -->
+    </form>
+    </div><!--page -->
+</body>
+</html>

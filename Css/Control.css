@@ -1,0 +1,59 @@
+﻿.bottom
+{
+    margin-top:10px;
+}
+.bottom input[type='submit']
+{
+    margin-right:10px;
+    padding:3px;
+}
+.txtTable
+{
+    padding:3px;
+    border-radius:6px;
+    border:1px solid silver;
+    
+}
+.btnOrange
+{
+    margin-right:10px;
+    padding:3px;
+    background:url(../Resource/Images/o.png) #D3AB14;
+    border:1px solid #D3AB14;
+    color:#000;
+    border-radius:6px;
+    cursor:pointer;
+}
+.btnBlue
+{
+    margin-right:10px;
+    padding:3px;
+    background:url(../Resource/Images/o.png) #D3AB14;
+    border:1px solid #D3AB14;
+    color:#000;
+    border-radius:6px;
+    cursor:pointer;
+}
+.btnBlueEx
+{
+    margin-right:10px;
+    padding:3px;
+    background:url(../Resource/Images/b.png) #005E8F;
+    border:1px solid #005E8F;
+    color:#fff;
+    border-radius:6px;
+    cursor:pointer;
+}
+.table select
+{
+    border:1px solid silver;
+    border-radius:6px;
+    padding:3px;
+}
+h3
+{
+    width:100%;
+    border-bottom:1px solid silver;
+    margin-bottom:10px;
+    padding-bottom:6px;
+}

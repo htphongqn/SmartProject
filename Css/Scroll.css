@@ -1,0 +1,17 @@
+﻿.scroll
+{
+    width:987px;
+    overflow:scroll;
+}
+.content_scroll
+{
+    width:972px;
+}
+#outer_container{margin:60px; width:260px; padding:0 10px; border-top:1px solid #666; border-bottom:1px solid #666;}
+#customScrollBox{position:relative; height:600px; overflow:hidden;}
+#customScrollBox .container{position:relative; width:240px; top:0; float:left;}
+#customScrollBox .content{clear:both;}
+#customScrollBox .content p{padding:10px 5px; margin:10px 0; color:#fff; font-family:Verdana, Geneva, sans-serif; font-size:13px;}
+#customScrollBox img{border:5px solid #fff;}
+#dragger_container{position:relative; width:0px; height:580px; float:left; margin:10px 0 0 10px; border-left:1px solid #000; border-right:1px solid #555;}
+#dragger{position:absolute; width:9px; height:40px; background:#999; margin-left:-5px; text-align:center; line-height:40px; color:#666; overflow:hidden; border-left:1px solid #ccc; border-right:1px solid #555;}
